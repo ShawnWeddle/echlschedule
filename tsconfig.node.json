@@ -5,6 +5,11 @@
     "lib": ["ES2023"],
     "types": ["node"],
     "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "ignoreDeprecations": "6.0",
 
     /* Bundler mode */
     "module": "nodenext",

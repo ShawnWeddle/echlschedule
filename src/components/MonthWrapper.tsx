@@ -7,7 +7,7 @@ import TeamMonth from "./TeamMonth";
 
 const MonthWrapper: React.FC = () => {
   const [activeTeam, setActiveTeam] = useState<ECHLTeamType>("FWK");
-  const [activeMonth, setActiveMonth] = useState<number>(10);
+  const [activeMonth, setActiveMonth] = useState<number>(12);
   const teamList = echlTeamsList.map((team, index) => {
     const style = ECHLstyleData[team];
     return (

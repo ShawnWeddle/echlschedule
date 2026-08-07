@@ -3,7 +3,6 @@ import { cn } from "../utils/cn";
 import { getGames } from "../utils/getGames";
 import { monthList } from "../data/teams";
 import { ECHLstyleData } from "../data/shells";
-import { ECHLteamData } from "../data/teamInfo";
 import DaySquare from "./Square";
 import LogoSquare from "./LogoSquare";
 
@@ -29,10 +28,6 @@ const TeamMonth: React.FC<TeamMonthProps> = (props: TeamMonthProps) => {
         },
       )}
     >
-      <div className="z-1 text-4xl font-bold text-white uppercase">
-        {ECHLteamData[team].location}
-      </div>
-
       <div className="z-1 text-4xl font-bold text-white">
         {monthList[month - 1]}
       </div>
@@ -115,13 +110,7 @@ export default TeamMonth;
 
 /**
  * 
- *       <div className="grid grid-cols-7">
-        <div>SUN</div>
-        <div>MON</div>
-        <div>TUE</div>
-        <div>WED</div>
-        <div>THU</div>
-        <div>FRI</div>
-        <div>SAT</div>
+ *    <div className="z-1 text-4xl font-bold text-white uppercase">
+        {ECHLteamData[team].location}
       </div>
  */
