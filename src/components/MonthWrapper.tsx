@@ -28,7 +28,7 @@ const MonthWrapper: React.FC = () => {
   });
   const monthSetter = () => {
     return (
-      <div className="flex justify-center">
+      <div className="z-1 flex justify-center">
         <button
           disabled={activeMonth === 10}
           onClick={() => {

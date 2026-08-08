@@ -1,6 +1,6 @@
 import type { ECHLTeamType } from "../types/types";
-import ADK from "../assets/ADK-S.png";
-import ADK2 from "../assets/ADK-A.png";
+import ADK from "../assets/ADK_S.png";
+import ADK2 from "../assets/ADK_A.png";
 import ALN from "../assets/ALN_S.png";
 import ATL from "../assets/ATL_S.png";
 import BLM from "../assets/BLM_S.png";
@@ -45,7 +45,7 @@ const LogoSquare: React.FC<LogoSquareProps> = (props: LogoSquareProps) => {
   let src = "";
   switch (team) {
     case "ADK":
-      src = size === "L" ? ADK2 : ADK;
+      src = size === "S" ? ADK2 : ADK;
       break;
     case "ALN":
       src = ALN;
@@ -66,7 +66,7 @@ const LogoSquare: React.FC<LogoSquareProps> = (props: LogoSquareProps) => {
       src = FWK;
       break;
     case "GSO":
-      src = size === "L" ? GSO2 : GSO;
+      src = size === "S" ? GSO2 : GSO;
       break;
     case "GVL":
       src = GVL;
@@ -87,7 +87,7 @@ const LogoSquare: React.FC<LogoSquareProps> = (props: LogoSquareProps) => {
       src = KCM;
       break;
     case "MNE":
-      src = size === "L" ? MNE2 : MNE;
+      src = size === "S" ? MNE2 : MNE;
       break;
     case "NMG":
       src = NMG;
@@ -108,7 +108,7 @@ const LogoSquare: React.FC<LogoSquareProps> = (props: LogoSquareProps) => {
       src = SAV;
       break;
     case "SCS":
-      src = size === "L" ? SCS2 : SCS;
+      src = size === "S" ? SCS2 : SCS;
       break;
     case "TAH":
       src = TAH;

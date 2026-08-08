@@ -6,7 +6,6 @@ import "maplibre-gl/dist/maplibre-gl.css";
 
 export const ECHLmap: React.FC = () => {
   const mapContainer = useRef(null);
-  const markerRef = useRef(null);
   const [viewState, setViewState] = useState<{
     center: maplibregl.LngLatLike;
     zoom: number;

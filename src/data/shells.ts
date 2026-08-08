@@ -194,7 +194,7 @@ export const ECHLstyleData: { [Key in ECHLTeamType] : StyleType} = {
     secondaryText: "text-[#FFFFFF]",
   },
   TRE: {
-    primaryText: "text-[#B1B4B6]",
+    primaryText: "text-[#C32126]",
     homeBG: "bg-[#C32126]/75",
     awayBG: "bg-[#FFFFFF]/75",
     fullBG: "to-[#0987C9]",

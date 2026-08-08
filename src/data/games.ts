@@ -161,12 +161,7 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "GVL", home: "SAV" }]
     },{
     date: "2026/11/02",
-    games: [{ away: "CIN", home: "FLA" },
-      { away: "SCS", home: "ATL" },
-      { away: "NMG", home: "WIC" },
-      { away: "TRE", home: "MNE" },
-      { away: "RCR", home: "IDH" },
-      { away: "FWK", home: "TOL" }]
+    games: []
     },{
     date: "2026/11/03",
     games: [{ away: "SAV", home: "JAX" },
@@ -195,7 +190,8 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "WHL", home: "TRE" },
       { away: "BLM", home: "FWK" },
       { away: "ORL", home: "SCS" },
-      { away: "GVL", home: "SAV" }]
+      { away: "GVL", home: "SAV" },
+      { away: "REA", home: "NOR" }]
     },{
     date: "2026/11/07",
     games: [{ away: "RCR", home: "IDH" },
@@ -210,7 +206,8 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "TRE", home: "NOR" },
       { away: "BLM", home: "CIN" },
       { away: "KAL", home: "IND" },
-      { away: "FWK", home: "TOL" }]
+      { away: "FWK", home: "TOL" },
+      { away: "ADK", home: "TRL" }]
     },{
     date: "2026/11/08",
     games: [{ away: "ORL", home: "SAV" },
@@ -398,7 +395,13 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
     },{
     date: "2026/12/01", games: []
     },{
-    date: "2026/12/02", games: []
+    date: "2026/12/02",
+    games: [{ away: "CIN", home: "FLA" },
+      { away: "SCS", home: "ATL" },
+      { away: "NMG", home: "WIC" },
+      { away: "TRE", home: "MNE" },
+      { away: "RCR", home: "IDH" },
+      { away: "FWK", home: "TOL" }]
     },{
     date: "2026/12/03",
     games: [{ away: "KCM", home: "ALN" }]
@@ -416,7 +419,8 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "IND", home: "WHL" },
       { away: "ORL", home: "JAX" },
       { away: "ATL", home: "SCS" },
-      { away: "RCR", home: "IDH" }]
+      { away: "RCR", home: "IDH" },
+      { away: "KCM", home: "TUL" }]
     },{
     date: "2026/12/05",
     games: [{ away: "CIN", home: "FLA" },
@@ -431,7 +435,8 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "NOR", home: "TRE" },
       { away: "MNE", home: "WOR" },
       { away: "REA", home: "ADK" },
-      { away: "RCR", home: "IDH" }]
+      { away: "RCR", home: "IDH" },
+      { away: "KCM", home: "TUL" }]
     },{
     date: "2026/12/06",
     games: [{ away: "TOL", home: "IND" },
@@ -628,7 +633,8 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "GSO", home: "ADK" },
       { away: "TRE", home: "MNE" },
       { away: "IND", home: "FWK" },
-      { away: "TOL", home: "KAL" }]
+      { away: "TOL", home: "KAL" },
+      { away: "ORL", home: "JAX" }]
     },{
     date: "2027/01/01",
     games: [{ away: "NMG", home: "IDH" },
@@ -653,6 +659,7 @@ export const ECHLfullSchedule: ECHLScheduleType[] = [
       { away: "WOR", home: "MNE" },
       { away: "FLA", home: "ATL" },
       { away: "JAX", home: "GVL" },
+      { away: "SCS", home: "ORL" },
       { away: "TOL", home: "IND" },
       { away: "KAL", home: "WHL" }]
     },{

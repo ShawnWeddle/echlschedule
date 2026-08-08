@@ -22,21 +22,35 @@ const TeamMonth: React.FC<TeamMonthProps> = (props: TeamMonthProps) => {
   return (
     <div
       className={cn(
-        "flex w-full flex-col items-center justify-around bg-radial from-[#808080]",
+        "flex min-h-screen w-full flex-col items-center justify-around overflow-hidden bg-radial from-[#808080]",
         {
           [style.fullBG]: true,
         },
       )}
     >
-      <div className="z-1 text-4xl font-bold text-white">
+      <div className="z-2 flex justify-around text-4xl font-bold text-white">
         {monthList[month - 1]}
+        <div
+          className={cn("rounded p-1 text-lg text-white", {
+            [style.homeBG]: true,
+          })}
+        >
+          HOME
+        </div>
+        <div
+          className={cn("rounded p-1 text-lg text-black", {
+            [style.awayBG]: true,
+          })}
+        >
+          AWAY
+        </div>
       </div>
 
       <div className="relative z-1 mx-1 grid grid-cols-7 gap-0.5">
         <LogoSquare
           size="L"
           team={team}
-          className="absolute top-1/2 left-1/2 -z-10 -translate-x-1/2 -translate-y-1/2 bg-contain opacity-50"
+          className="absolute top-1/2 left-1/2 -z-10 w-full -translate-x-1/2 -translate-y-1/2 bg-contain opacity-50"
         />
 
         <div
